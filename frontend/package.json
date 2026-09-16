@@ -1,0 +1,34 @@
+{
+  "name": "cutover-dashboard-web",
+  "version": "1.0.0",
+  "description": "SAP S/4HANA Cutover Dashboard UI",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
+    "recharts": "^2.10.3",
+    "axios": "^1.6.2",
+    "socket.io-client": "^4.7.2",
+    "date-fns": "^2.30.0",
+    "zustand": "^4.4.1",
+    "react-router-dom": "^6.20.0",
+    "clsx": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "tailwindcss": "^3.3.6",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "vite preview --port 3000"
+  }
+}
